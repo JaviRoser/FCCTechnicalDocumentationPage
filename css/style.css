@@ -19,70 +19,50 @@ body {
 
     font-family: Karla, Titillium Web, Arial, Helvetica, sans-serif;
     color: var(--main-color);
-   /*background-color: black;*/
-   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    /*background-color: black;*/
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 a {
     cursor: pointer;
 }
 
-
-
-/* Style the top navigation bar */
-
-.topnav {
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
-    padding: 24px 0 12px 0;
-    width: 100%;
-    margin: 0;
-    top: 0;
-    position: fixed;
-    z-index: 99999;
-    background-color: var(--four-color);
-    border-bottom: 1px solid #dfe3e8;
-    left: 0;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.4);
-}
-
-
-.sticky {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-}
-
-
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-   border: 1px solid #555;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid #555;
 }
 
 li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-bottom: 1px solid #555;
-  padding-left: 2em;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+    padding-left: 2em;
 }
 
 li a.active {
-  background-color: #4CAF50;
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
+}
+
+
+main {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
 }
 
 
