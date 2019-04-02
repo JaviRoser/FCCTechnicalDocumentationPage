@@ -1,7 +1,10 @@
 <!-- Responsive Web Design Projects - 
 page: Technical Documentation Page
 January 14,2019
-Designed by Carlos Sanchez-->
+Designed by Carlos Sanchez
+Updated on March 17 2019
+        on April 10 2019
+-->
 <!DOCTYPE html>
 <html>
 <title> </title>
@@ -18,53 +21,99 @@ Designed by Carlos Sanchez-->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <ul class="navbar">
-        <li><a>Python Introduction</a></li>
-        <li><a class="active" href="#home" href="#news">Introduction</a></li>
-        <li><a class="nav-link" href="#String">String</a></li>
-        <li><a class="nav-link" href="#List">List</a></li>
-        <li><a class="nav-link" href="#Sorting">Sorting</a></li>
-    </ul>
+    <nav id="navbar">
+        <ul>
+            <header>
+                <h1>Python Documentation</h1>
+            </header>
+            <li><a class="nav-link" href="#Introduction">Introduction</li></a>
+            <li><a class="nav-link" href="#String">String</a></li>
+            <li><a class="nav-link" href="#List">List</a></li>
+            <li><a class="nav-link" href="#Sorting">Sorting</a></li>
+        </ul>
+    </nav>
     <main id="main-doc">
-        <section class="main-section">
-            <header id="Python_Documentation">
+        <!--   <section class="main-section">
+            <header id="Python_Documentation"><h1>Python Documentation</h1>
             </header>
-            <h1>Language Introduction</h1>
-            <p> Python is a dynamic</p>
+           
+        </section> -->
+        <section class="main-section" id="Introduction">
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <article>
+                <p>
+                    It is a dynamic and interpreted language comparable to Perl, Ruby, Scheme, or Java. There are no type declaration of variables, parameter, functions or methods in source code. As a result, the code is short and flexible.
+                </p>
+                <br>
+                <p> Python's Notable feautures:</p>
+                <li>Python is case sensitive, and it does not require semicolon at the end of each statement.</li>
+                <li>Uses elegant syntax, so programs are easier to read.</li>
+                <li>It has a large standard library to support many common programming tasks, including connecting to web servers, searching text with regular expressions, reading and modifying files.</li>
+                <li>Its interactive mode makes it easy to test short snippets of code.
+                <li>It can be embedded into an application to provide a programmable interface.</li>
+                <li>It runs in Mac OS, Windows, Linux and Unix.</li>
+                <br>
+                <p> Python source code
+                    It uses the “.py” extension. → “hello.py”</p></br>
+            </article>
         </section>
-        <section class="main-section">
-            <header id="Introduction">
+        <section class="Strings" id="String">
+            <header>
+                <h2>String</h2>
             </header>
-            <p> </p>
+            <article>
+                <p>
+                    It has a built-in string class name “str.” They are immutable (they cannot be changed.) String Literals in python are surronded either by single quotations marks, or double quotation marks.
+                </p>
+                <p>String methods</p>
+                <p> They are similar to a function, but runs on an object</p>
+                <li>s.lower(): return a lowercase
+                    <code>string = "THIS SHOULD BE LOWERCASE!"
+                        print(string.lower())</code>
+                </li>
+                <li>s.strip(): return a string with whitespace removed</li>
+                <li>s.startswith{‘other’}, endswith(‘other’)</li>
+                <li>s.split(): splits the string into substrings</li>
+            </article>
         </section>
-        <section class="Strings">
-            <header id="String">
+        <section class="List" id="List">
+            <header>
+                <h2>List</h2>
             </header>
-            <h1>String</h1>
-            <h2> </h2>
+            <article>
+                <p>
+                    A list is a collection which is ordered and changeable.They work similar to strings, and they are written with square brackets.
+                    <code>colors=['red','blue','green']
+                    </code>
+                </p>
+            </article>
         </section>
-        <section class="main-section">
-            <header id="List">
+        <section class="main-section" id="Sorting">
+            <header>
+                <h2> Sorting</h2>
             </header>
-            <h1>List</h1>
-            <h2> </h2>
-        </section>
-        <section class="main-section">
-            <header id="Sorting">
-            </header>
-            <h1>Sorting</h1>
-            <h2> </h2>
+            <p> We can use a sorted function, which takes a list and returns a new list with those elements in sorted order. The original list is not changed.
+            </p>
+            <p>The sorted function can use arguments. For example,</p>
+            <code>sorted (list,reverse=True)
+            </code>
         </section>
     </main>
     <footer>
         <div class="footer">
             <ul class='footerListContent'>
             </ul>
-            <p class='copyRights'></p>
+            <p class='copyRights'>
+                All the documentation on this page was taken from
+                <a href="https://developers.google.com/edu/python/">
+                    Google python Class</a>
+            </p>
         </div>
     </footer>
 </body>
 
 </html>
 <script src="js/index.js"></script>
-<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
