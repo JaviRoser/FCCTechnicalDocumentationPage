@@ -34,6 +34,15 @@ p {
 
 /*Navbar formatting*/
 
+
+
+/*Use this to pass the test*/
+
+#navbar {
+
+    position: fixed;
+
+}
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -130,7 +139,7 @@ footer {
     #navbar ul {
         width: 100%;
         height: auto;
-        position: relative;
+        position: fixed;
 
 
     }
