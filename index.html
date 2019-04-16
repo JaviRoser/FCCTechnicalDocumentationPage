@@ -24,10 +24,11 @@ Updated on March 17 2019
     <nav id="navbar">
         <ul>
             <header>
-                <h1>Python Documentation</h1>
+                <i id="python_icon" class="fab fa-python"></i>
+                <h1>  Python Documentation</h1>
             </header>
             <li><a class="nav-link" href="#Introduction">Introduction</li></a>
-            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#Why_you_should_learn_python">Why you should learn Python</a></li>
             <li><a class="nav-link" href="#String">String</a></li>
             <li><a class="nav-link" href="#List">List</a></li>
             <li><a class="nav-link" href="#Sorting">Sorting</a></li>
@@ -35,51 +36,46 @@ Updated on March 17 2019
         </ul>
     </nav>
     <main id="main-doc">
-        <!--   <section class="main-section">
-            <header id="Python_Documentation"><h1>Python Documentation</h1>
-            </header>
-           
-        </section> -->
         <section class="main-section" id="Introduction">
             <header>
                 <h2>Introduction</h2>
             </header>
             <article>
-                <p>
-                    It is a dynamic and interpreted language comparable to Perl, Ruby, Scheme, or Java. There are no type declaration of variables, parameter, functions or methods in source code. As a result, the code is short and flexible.
-                </p>
-                <br>
-                <p> Python's Notable feautures:</p>
-                <li>Python is case sensitive, and it does not require semicolon at the end of each statement.</li>
-                <li>Uses elegant syntax, so programs are easier to read.</li>
-                <li>It has a large standard library to support many common programming tasks, including connecting to web servers, searching text with regular expressions, reading and modifying files.</li>
-                <li>Its interactive mode makes it easy to test short snippets of code.
-                <li>It can be embedded into an application to provide a programmable interface.</li>
-                <li>It runs in Mac OS, Windows, Linux and Unix.</li>
-                <br>
-                <p> Python source code
-                    It uses the “.py” extension. → “hello.py”</p></br>
+                <!-- <div class="python_icon_introduction"> -->
+                  
+                    <p>
+                        It is a dynamic and interpreted language comparable to Perl, Ruby, Scheme, or Java. There are no type declaration of variables, parameter, functions or methods in source code. As a result, the code is short and flexible.
+                    </p>
+                    <br>
+                    <p> Python's Notable feautures:</p>
+                    <li>Python is case sensitive, and it does not require semicolon at the end of each statement.</li>
+                    <li>Uses elegant syntax, so programs are easier to read.</li>
+                    <li>It has a large standard library to support many common programming tasks, including connecting to web servers, searching text with regular expressions, reading and modifying files.</li>
+                    <li>Its interactive mode makes it easy to test short snippets of code.
+                    <li>It can be embedded into an application to provide a programmable interface.</li>
+                    <li>It runs in Mac OS, Windows, Linux and Unix.</li>
+                    <br>
+                    <p> Python source code
+                        It uses the “.py” extension. → “hello.py”</p></br>
+                    </li>
+                <!-- </div> -->
             </article>
         </section>
-        <section class="main-section" id="What_you_should_already_know">
+        <section class="main-section" id="Why_you_should_learn_python">
             <header>
-                <h2>What you should already know</h2>
+                <h2>Why You Should Learn Python</h2>
             </header>
             <article>
                 <p>
-                    It is a dynamic and interpreted language comparable to Perl, Ruby, Scheme, or Java. There are no type declaration of variables, parameter, functions or methods in source code. As a result, the code is short and flexible.
+                    Python is easy to learn and powerful to build a web application and write automated scripts
                 </p>
                 <br>
-                <p> Python's Notable feautures:</p>
-                <li>Python is case sensitive, and it does not require semicolon at the end of each statement.</li>
-                <li>Uses elegant syntax, so programs are easier to read.</li>
-                <li>It has a large standard library to support many common programming tasks, including connecting to web servers, searching text with regular expressions, reading and modifying files.</li>
-                <li>Its interactive mode makes it easy to test short snippets of code.
-                <li>It can be embedded into an application to provide a programmable interface.</li>
-                <li>It runs in Mac OS, Windows, Linux and Unix.</li>
-                <br>
-                <p> Python source code
-                    It uses the “.py” extension. → “hello.py”</p></br>
+                <li>Simplicity</li>
+                <li>Data Science </li>
+                <li>Machine Learning.</li>
+                <li>Web Development</li>
+                <li>Huge Community</li>
+                <li>Automation</li></br>
             </article>
         </section>
         <section class="main-section" id="String">
@@ -127,12 +123,33 @@ Updated on March 17 2019
             <header>
                 <h2> Control Flow Tools</h2>
             </header>
-            <p> We can use a sorted function, which takes a list and returns a new list with those elements in sorted order. The original list is not changed.
+            <h3>If... elif</h3>
+            <p>
+                the elif and else are optional. since Python does not have a switch statement, if, elif and else are used instead.
             </p>
-            <p>The sorted function can use arguments. For example,</p>
-            <code>sorted (list,reverse=True)
+            <code>
+                <pre>
+                if expression:
+                <i>statement(s)</i>
+                elif expression:
+                statement(s)
+                elif expression:
+                statement(s)
+                ...
+                else:
+                statement(s)</pre>
             </code>
-            <code>sorted (list,reverse=True)
+            <h3>While</h3>
+            <p>
+                It supports repeated execution of a statement or block of statements that is controlled by a conditional expression
+            </p>
+            <code>
+                <pre>
+              count = 0
+              while x > 0:
+              x = x // 2   # truncating division
+              count += 1
+              print "The approximate log2 is", count</pre>
             </code>
         </section>
     </main>
@@ -144,6 +161,8 @@ Updated on March 17 2019
                 All the documentation on this page was taken from
                 <a href="https://developers.google.com/edu/python/">
                     Google python Class</a>
+                <a href="https://developers.google.com/edu/python/">
+                    O'Reilly</a>
             </p>
         </div>
     </footer>
