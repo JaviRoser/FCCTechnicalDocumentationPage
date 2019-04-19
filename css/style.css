@@ -19,7 +19,7 @@
 }
 
 body {
-
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
     /*font-family: Karla, Titillium Web, Arial, Helvetica, sans-serif;*/
     color: var(--main-color);
     /*font-size: 1.5em;*/
@@ -32,7 +32,6 @@ a {
 
 p {
     line-height: 1.5em;
-
 }
 
 h1,
@@ -53,16 +52,18 @@ h2 {
     padding-bottom: 1.6em;
 }
 
-#python_icon{
-    font-size:3em;
+#python_icon {
+    font-size: 3em;
     display: inline;
-    color:var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 /*.python_icon_introduction{
      display: flex;
   justify-content: center;
 }*/
+
+
 /*Navbar formatting*/
 
 /*Use this to pass the test*/
@@ -72,8 +73,7 @@ h2 {
 
 }*/
 
-#navbar  {
-
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -84,6 +84,7 @@ h2 {
     border: 2px solid #555;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
+
 
 #navbar li a {
     font-weight: 600;
@@ -109,7 +110,7 @@ li a:hover:not(.active) {
 #main-doc {
     margin-left: 27%;
     padding: 1px 16px;
-    
+
 }
 
 .main-section {
@@ -176,13 +177,13 @@ footer {
 /*Extra small devices (phones, 600px and down) */
 
 @media screen and (max-width: 900px) {
-    #navbar  {
+    #navbar {
         width: 100%;
         height: auto;
         position: relative;
     }
 
-     /*#navbar {
+    /*#navbar {
        position: relative;
     }*/
 
@@ -191,11 +192,12 @@ footer {
         padding: 1px 16px;
         /*position: relative;*/
         /*height: 1000px;*/
-        /*margin-top: 300px;*/    }
+        /*margin-top: 300px;*/
+    }
 
- /*   .main-section {
+       .main-section {
     padding: 0;
-}*/
+}
 
 }
 
