@@ -113,10 +113,9 @@ li a:hover:not(.active) {
 
 }
 
-.main-section {
+/*.main-section {
     padding-bottom: 12em;
-}
-
+}*/
 
 
 /*Header formmatting*/
@@ -195,9 +194,9 @@ footer {
         /*margin-top: 300px;*/
     }
 
-       .main-section {
-    padding: 0;
-}
+    .main-section {
+        padding: 0;
+    }
 
 }
 
